@@ -4,6 +4,9 @@ body {
     overflow: hidden;
     background-repeat: no-repeat;
     font-family: 'Roboto', sans-serif;
+    background-image: url(../ee/photo-1553095066-5014bc7b7f2d.jpeg);
+    /* background-size: cover; */
+    background-clip: content-box;
 
   }
   .input{
