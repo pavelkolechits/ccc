@@ -1,0 +1,79 @@
+body {
+    background-color: #000;    
+    margin: 0;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+
+  }
+  .input{
+    background-color: inherit;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    color: #fff;
+    font-size: 20px;
+    max-width:200px ;
+
+  }
+  .wrap{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+   
+
+  }
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+}
+
+.input[type=number] {
+    -moz-appearance:textfield; 
+}
+.modal{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00000099;
+    z-index: 1;
+}
+.salary{
+    color: #fff;
+    text-align: center;
+}
+.ok, .count{
+    cursor: pointer;
+    background:none;
+    border-radius: 3px;
+    color: #ccc;
+    padding: 2px 15px;
+    margin: 5px;
+}
+.output{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.hidden{
+    display: none;
+}
