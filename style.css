@@ -5,8 +5,7 @@ body {
     background-repeat: no-repeat;
     font-family: 'Roboto', sans-serif;
     background-image: url('./photo-1553095066-5014bc7b7f2d.jpeg');
-    /* background-size: cover; */
-    background-clip: content-box;
+
 
   }
   .input{
@@ -79,4 +78,17 @@ body {
 }
 .hidden{
     display: none;
+}
+.img {
+background-size: cover;
+}
+img{
+ width: 100vw;
+}
+.h3{
+    margin: auto;
+    text-align: center;
+    margin: 10px;
+    color: #fff;
+    display: block;
 }
